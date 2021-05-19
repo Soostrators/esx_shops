@@ -8,17 +8,7 @@ Config.Locale = 'en'
 Config.Zones = {
 
 	TwentyFourSeven = {
-		Items = {
-			{
-				name = "bread",
-				label = "bread",
-				price = 100
-			},
-			{
-				name = "water",
-				label = "water",
-				price = 100
-			}
+		Items = {}
 		},
 		Pos = {
 			vector3(373.8, 325.8, 102.5),
@@ -38,17 +28,7 @@ Config.Zones = {
 },
 
 	RobsLiquor = {
-		Items = {
-			{
-				name = "bread",
-				label = "bread",
-				price = 100
-			},
-			{
-				name = "water",
-				label = "water",
-				price = 100
-			}
+		Items = {}
 		},
 		Pos = {
 			vector3(1135.8, -982.2, 45.4),
@@ -70,16 +50,25 @@ Config.Zones = {
 
 	LTDgasoline = {
 		Items = {
-			{
-				name = "bread",
-				label = "bread",
-				price = 100
-			},
-			{
-				name = "water",
-				label = "water",
-				price = 100
-			}
+			{}
+		},
+		Pos = {
+			vector3(-48.5,  -1757.5, 28.4),
+			vector3(1163.3, -323.8, 68.2),
+			vector3(-707.5, -914.2, 18.2),
+			vector3(-1820.5, 792.5, 137.1),
+			vector3(1698.3, 4924.4, 41.0)
+	},
+	Size  = 1.0,
+	Type  = 59,
+	Color = 25,
+	ShowBlip = true,
+  ShowMarker = true
+},
+
+	Ss = {
+		Items = {
+			{}
 		},
 		Pos = {
 			vector3(-48.5,  -1757.5, 28.4),
